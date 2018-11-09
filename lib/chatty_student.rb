@@ -1,3 +1,5 @@
+import student.rb
+
 class ChattyStudent < Student
   def hello
     super
