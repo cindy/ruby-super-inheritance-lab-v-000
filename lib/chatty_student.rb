@@ -1,5 +1,3 @@
-import_relative ./student.rb
-
 class ChattyStudent < Student
   def hello
     super
@@ -7,6 +5,6 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    super
+    super * 10
   end
 end
